@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    display: flex;
+    justify-content: center;
+    .container {
+        padding: 20px 0;
+
+        width: 85%;
+        justify-content: space-around;
+        align-items: center;
+        display: flex;
+
+        .shop {
+            p {
+                color: black;
+            }
+            span {
+                color: red;
+            }
+        }
+        .nav {
+            ul {
+                justify-content: center;
+                align-items: center;
+                display: flex;
+                gap: 15px;
+                text-decoration: none;
+                li {
+                    list-style-type: none;
+                    a {
+                        text-decoration: none;
+                        color: black;
+                    }
+                }
+            }
+        }
+        .icon {
+            display: flex;
+            gap: 25px;
+        }
+    }
+}
+main {
+    #coloShip {
+        min-height: 80vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url("https://preview.colorlib.com/theme/coloshop/images/slider_1.jpg");
+        .container {
+            width: 65%;
+            background-color: red;
+            align-items: center;
+            display: flex;
+            .spring {
+               width: 30%;
+               background-color: yellow;
+               
+                button {
+                    background-color: red;
+                    color: white;
+                    border-radius: 2px;
+                    border: none;
+                    padding: 15px;
+                    font-family: Arial;
+                    font-weight: 400;
+                    size: 13px;
+                }
+                h1 {
+                    font-weight: 700;
+                    color: black;
+                    size: 24px;
+                    font-family: "Times New Roman";
+                }
+                h5 {
+                    size: 13px;
+                    font-family: "Times New Roman";
+                    color: black;
+                    font-weight: 700;
+                }
+            }
+        }
+    }
+}

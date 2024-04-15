@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+}
+header .container {
+  padding: 20px 0;
+  width: 85%;
+  justify-content: space-around;
+  align-items: center;
+  display: flex;
+}
+header .container .shop p {
+  color: black;
+}
+header .container .shop span {
+  color: red;
+}
+header .container .nav ul {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  gap: 15px;
+  text-decoration: none;
+}
+header .container .nav ul li {
+  list-style-type: none;
+}
+header .container .nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+header .container .icon {
+  display: flex;
+  gap: 25px;
+}
+
+main #coloShip {
+  min-height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("https://preview.colorlib.com/theme/coloshop/images/slider_1.jpg");
+}
+main #coloShip .container {
+  width: 65%;
+  background-color: red;
+  align-items: center;
+  display: flex;
+}
+main #coloShip .container .spring {
+  width: 30%;
+  background-color: yellow;
+}
+main #coloShip .container .spring button {
+  background-color: red;
+  color: white;
+  border-radius: 2px;
+  border: none;
+  padding: 15px;
+  font-family: Arial;
+  font-weight: 400;
+  size: 13px;
+}
+main #coloShip .container .spring h1 {
+  font-weight: 700;
+  color: black;
+  size: 24px;
+  font-family: "Times New Roman";
+}
+main #coloShip .container .spring h5 {
+  size: 13px;
+  font-family: "Times New Roman";
+  color: black;
+  font-weight: 700;
+}
